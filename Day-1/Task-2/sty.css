@@ -1,0 +1,35 @@
+h2 {
+  text-align: center;
+  color: black;
+}
+p {
+  color: brown;
+}
+.First {
+  color: maroon;
+}
+/**First {
+  color: black;
+}*/
+/*div > p {
+  color: blueviolet;
+}*/
+/*div + p {
+  color: cornsilk;
+}*/
+input:focus {
+  background-color: darkorange;
+}
+p:first-child {
+  color: gold;
+}
+.test:hover {
+  content: url(https://media.istockphoto.com/photos/hello-neon-lighting-sign-on-brick-wall-picture-id1279537094);
+}
+.box {
+  width: 100vw;
+  height: 100vh;
+  background-color: skyblue;
+  border: 10px rgb(44, 238, 5);
+  font-size: 30px;
+}

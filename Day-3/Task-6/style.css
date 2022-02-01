@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-style: bold;
+  font-size: 10mm;
+  text-align: center;
+  box-sizing: border-box;
+}
+.box {
+  width: 500px;
+  height: 200px;
+  background-color: silver;
+  display: flex;
+  /*flex-flow: row wrap;*/
+  flex-flow: row-reverse;
+  justify-content: space-between;
+}
+.little-box {
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+}
+.box2 {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  background-color: green;
+  flex-direction: column-reverse;
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
+}
