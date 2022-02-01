@@ -1,0 +1,64 @@
+.box {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  width: 50vw;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+span {
+  color: violet;
+}
+.inner-box {
+  background-color: rgb(56, 33, 56);
+  color: whitesmoke;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  border: white 1mm;
+}
+.inner-grid-box {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+.Image-Box {
+  width: 25vw;
+  height: 50vh;
+  background-image: url(https://i1.wp.com/techgujarati.com/wp-content/uploads/2021/09/5g-technology-title.jpeg?w=960&ssl=1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.grid-content {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+p {
+  font: center;
+}
+.grid-content p {
+  font-size: 0.5em;
+  color: white;
+}

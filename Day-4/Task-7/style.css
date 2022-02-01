@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: :bold;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  background-color:grey;
+  background-image: linear-gradient(to bottom left);
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 180%;
+  height: 100vh;
+}
+.box {
+  display: flex;
+  background-color: black;
+  height: 20vh;
+  width: 70%;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 38vh 20vw;
+  border: 2px solid blueviolet;
+}
+.inner-one {
+  margin-right: 4rem;
+}
+div span {
+  color:maroon;
+}
