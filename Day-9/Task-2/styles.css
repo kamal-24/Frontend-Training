@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-style: border-box;
+  font-style: italic;
+}
+body {
+  background-color: olivedrab;
+  color: rgb(20, 20, 20);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+}
+
+.button {
+  color: red;
+}
