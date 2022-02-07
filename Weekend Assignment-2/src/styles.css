@@ -1,0 +1,37 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  background: rgb(125, 150, 133);
+  height: 100%;
+  min-height: 100vh;
+}
+#todotext {
+  color: rgba(100, 17, 28, 0.705);
+  margin: 0%;
+  text-align: center;
+}
+.flex1 {
+  display: flex;
+  width: 70%;
+  min-height: 40px;
+  margin-left: 13%;
+  justify-content: space-between;
+}
+.todolist {
+  color: rgb(0, 0, 0);
+  margin-left: 15%;
+  text-align: left;
+  justify-content: space-between;
+}
+li {
+  padding: 10px;
+  justify-content: space-between;
+}
+.ipbox {
+  min-width: 100%;
+}
