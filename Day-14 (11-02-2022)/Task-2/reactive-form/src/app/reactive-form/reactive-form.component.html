@@ -1,0 +1,14 @@
+<form action="" [formGroup]="logIn" (ngSubmit)="Onsubmit()">
+    <label for="">Enter first name</label>
+    <input type="text" formControlName="fname"><br>
+    <label for="">Enter Last name</label>
+    <input type="text" formControlName="lname"><br>
+    <label for="">Enter Age</label>
+    <input type="text" formControlName="age"><br>
+    <div [formGroup]="address">
+    <label for="" >Enter Address</label>
+    <input type="text" formControlName="street"><br>
+    <input type="text" formControlName="state"><br>
+    </div>
+    <button type="submit">Submit</button>
+</form>

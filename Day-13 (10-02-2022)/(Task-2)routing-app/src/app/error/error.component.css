@@ -1,0 +1,14 @@
+.box{ 
+    width: 200px;
+    margin :0 auto;
+    padding:150px 100px;
+    text-align: center;
+}h2{
+    position: absolute;
+    left:36%;
+}
+h3{
+    position: absolute;
+    top:40%;
+    left:42%;
+}

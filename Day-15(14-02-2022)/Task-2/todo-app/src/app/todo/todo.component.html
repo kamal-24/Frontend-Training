@@ -1,0 +1,7 @@
+<form action="" id="form">
+    <input type="text" placeholder="Task" name="inputTask" [(ngModel)]="inputTask">
+    <input type="submit" name="submit" placeholder="add" id="" (click)="addTask()">
+    <div *ngFor="let item of taskList; let i=index">
+            <p><strong>{{item}}</strong><span><button (click)="deleteTask(i)" name="delete">delete</button></span></p>
+    </div>
+</form>

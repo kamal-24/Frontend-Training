@@ -1,0 +1,161 @@
+body{
+    margin:0px;
+    background: hsl(210, 64%, 81%);
+}
+.box1 {
+    margin:0;
+    background: hsl(210, 64%, 81%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 100%;
+}
+@media screen and (max-width:500px){
+    .box1{
+        display: block;
+        max-width:100vw;
+        height: 100vh;
+    }
+    .preview{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width:90vw;
+        height: 100vh;
+    }
+    .left-preview{
+        height: 100vh;
+        max-width:100%;
+        border:0px;
+    }
+    .right-preview{
+        height: 100vh;
+        max-width:100vw;
+        border:0px;
+    }
+}
+.preview {
+    background: white;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    gap: 20px;
+    width: 680px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    margin: 20px 10px;
+}
+
+.left-preview {
+    background-image: url("./images/drawers.jpg");
+    background-size: cover;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.right-preview {
+    font-size: 13px;
+    padding: 20px;
+    font-family: 'Manrope', sans-serif;
+    color: hsl(214, 17%, 51%);
+    font-weight: 500;
+}
+
+.right-preview h2 {
+    color: hsl(217, 34%, 34%);
+    font-weight: 700;
+}
+
+.right-preview p {
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.michelle {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    grid-gap: 10px;
+}
+
+.name h4{
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.name p {
+    margin: 0px;
+}
+
+.avatar img {
+    border-radius: 100%;
+    width: 40px;
+}
+
+.popuptext {
+    display: flex;
+}
+
+.popuptext img {
+    padding: 2px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.popuptext p {
+    padding: 3px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background: hsl(210, 35%, 87%);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+div.a {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: hsl(217, 42%, 42%);
+    -ms-transform: rotate(45deg); 
+    transform: rotate(45deg);
+    left: 50%;
+    top: 80%;
+  }
+.popup img {
+    transform: translateX(7px) translateY(7px);
+}
+  
+.popup .popuptext {
+    
+    width: 190px;
+    background: hsl(217, 42%, 42%);
+    color:hsl(216, 50%, 96%);
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: -20%;
+    margin-left: -80px;
+    justify-content: center;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding: 10px;
+}
+
+.attribution a { 
+    color: hsl(228, 44%, 40%); 
+}
