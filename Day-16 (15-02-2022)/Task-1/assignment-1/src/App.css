@@ -1,0 +1,11 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 820px;
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+  margin:0 auto;
+  background-image: url('./assets/images/bg-pattern-desktop.svg');
+}
+

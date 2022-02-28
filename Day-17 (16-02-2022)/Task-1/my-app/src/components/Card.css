@@ -1,0 +1,32 @@
+p{
+    margin:0;
+    padding:5px;
+}
+.main{
+    margin:0 20px;
+    display: flex;
+    padding:10px;
+    width:200px;
+    justify-content: space-between;
+    border:1px solid white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+}
+.container{
+    margin:20px 0px;
+    padding:20px;
+    background-color: rgb(216, 215, 215);
+    width: 100%;
+}
+.box{
+    color: white;
+    margin:5px auto;
+    border-radius: 7px;
+    background-color: rgb(5, 124, 235);
+    padding: 15px ;
+    border:1px solid blue;
+}
+.mini-left{
+    display: flex;
+    
+}
